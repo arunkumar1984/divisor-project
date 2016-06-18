@@ -1,4 +1,4 @@
-# Automation Project (AV-AUTO-PROJECT branch)
+# Divisor & Power Of Project (div-help-input branch)
 
 * 'Divisor' and 'Power of' function implementation using csv source file *
 
