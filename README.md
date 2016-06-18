@@ -1,6 +1,6 @@
 # Automation Project (AV-AUTO-PROJECT branch)
 
-* Basic Automation Project Structure*
+* 'Divisor' and 'Power of' function implementation using csv source file *
 
 **Java 7**
 
