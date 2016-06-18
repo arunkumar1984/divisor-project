@@ -71,8 +71,40 @@ public class DataHelper {
 	 * @param class1
 	 * @return
 	 */
+	// private static Object convertDataType(String parameter, Object dataType)
+	// {
+	//
+	// try {
+	// if (dataType.equals(Integer.TYPE)) {
+	// return Integer.parseInt(parameter);
+	// } else if (dataType.equals(Boolean.TYPE)) {
+	// if (parameter.equalsIgnoreCase("true") |
+	// parameter.equalsIgnoreCase("false")) {
+	// return Boolean.parseBoolean(parameter);
+	// } else {
+	// throw new BooleanFormatException();
+	// }
+	//
+	// } else {
+	// System.out
+	// .println("Data type is a String or not recognized, returning a String for
+	// (" + parameter + ")");
+	// return parameter;
+	// }
+	// } catch (NumberFormatException e) {
+	// System.err.println("Number is not in correct format (" + parameter +
+	// ")");
+	// return 0;
+	// } catch (BooleanFormatException e) {
+	// System.err.println("Boolean value is not a correct String (" + parameter
+	// + ")");
+	// return false;
+	// }
+	// }
+
 	private static Object convertDataType(String parameter, Object dataType) {
 		try {
+
 			if (dataType.equals(Integer.TYPE)) {
 				return Integer.parseInt(parameter);
 			} else if (dataType.equals(Boolean.TYPE)) {
@@ -87,6 +119,7 @@ public class DataHelper {
 						.println("Data type is a String or not recognized, returning a String for (" + parameter + ")");
 				return parameter;
 			}
+
 		} catch (NumberFormatException e) {
 			System.err.println("Number is not in correct format (" + parameter + ")");
 			return 0;
