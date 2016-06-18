@@ -25,6 +25,8 @@ package com.sqa.av.helpers;
 public class DisplayHelper {
 
 	public static void multArray(Object[][] data) {
+		System.out.println("Test Data (Actual Result):");
+		System.out.println("-----------------------------");
 
 		for (int i = 0; i < data.length; i++) {
 			System.out.print("[");
@@ -34,8 +36,8 @@ public class DisplayHelper {
 					System.out.print("\t");
 				}
 			}
-			System.out.print("]");
-			System.out.print("\n");
+			System.out.println("]");
 		}
+		System.out.println("\n");
 	}
 }
